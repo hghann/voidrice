@@ -1,0 +1,21 @@
+"query:University:tags # \"Uni\"" meta
+"query:Unread:unread = \"yes\"" meta
+----------------------
+------UNIVERSITY------
+----------------------
+https://uottawa.brightspace.com/d2l/le/news/rss/232183/course?token=aiubgd8jyzmaz6zr17454&ou=232183 "~Thermodynamics I" "Uni"
+----------------------
+------FAVORITES-------
+----------------------
+https://lukesmith.xyz/rss.xml
+https://castel.dev/rss.xml
+https://sunknudsen.com/feeds/privacy-guides.xml
+----------------------
+-------YOUTUBE--------
+----------------------
+https://lukesmith.xyz/videos "~Luke Videos"
+----------------------
+---------VOID---------
+----------------------
+https://voidlinux.org/atom.xml
+https://github.com/void-linux/void-packages/commits/master.atom

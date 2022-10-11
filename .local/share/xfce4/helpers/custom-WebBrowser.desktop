@@ -1,0 +1,11 @@
+[Desktop Entry]
+NoDisplay=true
+Version=1.0
+Encoding=UTF-8
+Type=X-XFCE-Helper
+X-XFCE-Category=WebBrowser
+X-XFCE-CommandsWithParameter=/home/hg/Applications/librewolf-105.0.3-x86_64.AppImage "%s"
+Icon=librewolf-105.0.3-x86_64.AppImage
+Name=librewolf-105.0.3-x86_64.AppImage
+X-XFCE-Commands=/home/hg/Applications/librewolf-105.0.3-x86_64.AppImage
+
