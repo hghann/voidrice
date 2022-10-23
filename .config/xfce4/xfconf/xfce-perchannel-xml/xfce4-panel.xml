@@ -59,6 +59,7 @@
     </property>
     <property name="plugin-4" type="string" value="pager">
       <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="true"/>
     </property>
     <property name="plugin-5" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -66,6 +67,8 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="orage"/>
+        <value type="string" value="sylpheed"/>
         <value type="string" value="wi-fi network connection “the rise tm” active: the rise tm (89%)"/>
         <value type="string" value="wi-fi network connection “the rise tm” active: the rise tm (72%)"/>
         <value type="string" value="configuring wi-fi network connection “the rise tm”…"/>

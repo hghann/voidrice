@@ -1,4 +1,5 @@
 TerminalEmulator=custom-TerminalEmulator
 FileManager=custom-FileManager
 WebBrowser=firefox
+MailReader=sylpheed
 
