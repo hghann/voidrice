@@ -67,6 +67,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="wi-fi network connection “the rise tm” active: the rise tm (77%)"/>
         <value type="string" value="wi-fi network connection “the rise tm” active: the rise tm (70%)"/>
         <value type="string" value="orage"/>
@@ -104,10 +105,11 @@
     <property name="plugin-12" type="string" value="clock">
       <property name="timezone" type="string" value="EST"/>
       <property name="digital-format" type="string" value="%a %_d %b, %R"/>
-      <property name="digital-time-format" type="string" value="%a %_d %b, %R"/>
+      <property name="digital-time-format" type="string" value="%a %d %b, %I:%M %p"/>
       <property name="digital-layout" type="uint" value="3"/>
       <property name="mode" type="uint" value="2"/>
-      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
+      <property name="tooltip-format" type="string" value="%a %d %b, %I:%M %p"/>
+      <property name="digital-time-font" type="string" value="Sans 10"/>
     </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
