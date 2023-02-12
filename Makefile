@@ -60,9 +60,17 @@ networkmanager: ## Fix wifi on broadband BCM4306 chips
 
 bluetooth: ## Before using the Bluetooth device, make sure that it is not blocked by rfkill
 	$(PKGINSTALL) bluez bluez-alsa blueman
-	$(SUDO) $(LN) $(PWD)/etc/systemd/logind.conf /etc/systemd/logind.conf
-	$(SUDO) $(LN) ln -s /etc/sv/bluetooth /var/service/
-	$(SUDO) sv up bluetooth
+	$(SUDO) $(LN) ln -s /etc/sv/bluetoothd /var/service/
+	$(SUDO) sv up bluetoothd
+
+flatpak: ## Install Flatpak and GNOME Software Center (flatpak only)
+	$(PKGINSTALL) flatpak gnome-software
+	flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+touchegg: ## Install Touchegg and Touche (application to configure Touchegg)
+	$(PKGINSTALL) touchegg
+	flatpak install flathub com.github.joseexposito.touche
+	$(SUDO) ln -s /etc/sv/touchegg /var/service
 
 apparmor: ## Get apparmor up and running on void
 	$(PKGINSTALL) apparmor

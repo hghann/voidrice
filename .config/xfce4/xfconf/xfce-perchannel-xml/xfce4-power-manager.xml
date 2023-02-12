@@ -11,5 +11,8 @@
     <property name="show-panel-label" type="int" value="3"/>
     <property name="show-presentation-indicator" type="bool" value="false"/>
     <property name="general-notification" type="bool" value="false"/>
+    <property name="power-button-action" type="uint" value="3"/>
+    <property name="dpms-enabled" type="bool" value="false"/>
+    <property name="inactivity-sleep-mode-on-battery" type="uint" value="1"/>
   </property>
 </channel>
