@@ -29,6 +29,7 @@
       <property name="&lt;Super&gt;r" type="empty">
         <property name="startup-notify" type="empty"/>
       </property>
+      <property name="&lt;Alt&gt;&lt;Super&gt;s" type="empty"/>
     </property>
     <property name="custom" type="empty">
       <property name="&lt;Alt&gt;F2" type="string" value="xfce4-appfinder --collapsed">
@@ -63,6 +64,7 @@
       <property name="&lt;Shift&gt;&lt;Super&gt;numbersign" type="string" value="flameshot full"/>
       <property name="MonBrightnessUp" type="string" value="/home/hg/.local/bin/screen_brightness.sh up"/>
       <property name="MonBrightnessDown" type="string" value="/home/hg/.local/bin/screen_brightness.sh down"/>
+      <property name="LaunchA" type="string" value="skippy-xd"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -121,8 +123,8 @@
       <property name="&lt;Primary&gt;F12" type="empty"/>
       <property name="&lt;Super&gt;KP_Left" type="empty"/>
       <property name="&lt;Super&gt;KP_Right" type="empty"/>
-      <property name="&lt;Super&gt;KP_Up" type="empty"/>
       <property name="&lt;Super&gt;KP_Down" type="empty"/>
+      <property name="&lt;Super&gt;KP_Up" type="empty"/>
       <property name="&lt;Super&gt;KP_Page_Up" type="empty"/>
       <property name="&lt;Super&gt;KP_Home" type="empty"/>
       <property name="&lt;Super&gt;KP_End" type="empty"/>

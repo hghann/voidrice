@@ -67,7 +67,7 @@ flatpak: ## Install Flatpak and GNOME Software Center (flatpak only)
 	$(PKGINSTALL) flatpak gnome-software
 	flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-touchegg: ## Install Touchegg and Touche (application to configure Touchegg)
+touchegg: flatpak ## Install Touchegg and Touche (application to configure Touchegg)
 	$(PKGINSTALL) touchegg
 	flatpak install flathub com.github.joseexposito.touche
 	$(SUDO) ln -s /etc/sv/touchegg /var/service
