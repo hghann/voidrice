@@ -81,14 +81,14 @@ live_config_reload: true
 working_directory: none
 
 key_bindings:
-  - { key: V,         mods: Shift|Control,           action: Paste                       }
-  - { key: C,         mods: Shift|Control,           action: Copy                        }
+  - { key: V,         mods: Shift|Control, action: Paste                       }
+  - { key: C,         mods: Shift|Control, action: Copy                        }
   - { key: Insert,    mods: Shift,         action: PasteSelection              }
   - { key: Key0,      mods: Control,       action: ResetFontSize               }
-  - { key: Equals,    mods: Control,       action: IncreaseFontSize            }
-  - { key: Plus,      mods: Control,       action: IncreaseFontSize            }
-  - { key: Minus,     mods: Control,       action: DecreaseFontSize            }
-  - { key: Minus,     mods: Control,       action: DecreaseFontSize            }
+  - { key: Equals,    mods: Super,         action: IncreaseFontSize            }
+  - { key: Plus,      mods: Super,         action: IncreaseFontSize            }
+  - { key: Minus,     mods: Super,         action: DecreaseFontSize            }
+  - { key: Minus,     mods: Super,         action: DecreaseFontSize            }
   - { key: F11,       mods: None,          action: ToggleFullscreen            }
   - { key: Paste,     mods: None,          action: Paste                       }
   - { key: Copy,      mods: None,          action: Copy                        }
