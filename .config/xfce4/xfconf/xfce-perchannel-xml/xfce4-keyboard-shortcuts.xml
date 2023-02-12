@@ -65,6 +65,8 @@
       <property name="MonBrightnessUp" type="string" value="/home/hg/.local/bin/screen_brightness.sh up"/>
       <property name="MonBrightnessDown" type="string" value="/home/hg/.local/bin/screen_brightness.sh down"/>
       <property name="LaunchA" type="string" value="skippy-xd"/>
+      <property name="&lt;Shift&gt;MonBrightnessUp" type="string" value="/home/hg/.local/bin/ext_disp_brightness.sh up"/>
+      <property name="&lt;Shift&gt;MonBrightnessDown" type="string" value="/home/hg/.local/bin/ext_disp_brightness.sh down"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
