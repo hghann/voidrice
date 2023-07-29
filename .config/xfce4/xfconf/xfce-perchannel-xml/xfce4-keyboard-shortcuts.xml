@@ -57,7 +57,6 @@
       <property name="AudioMute" type="string" value="/home/hg/.local/bin/change_volume.sh mute"/>
       <property name="KbdBrightnessUp" type="string" value="/home/hg/.local/bin/keyboard_backlight.sh up"/>
       <property name="KbdBrightnessDown" type="string" value="/home/hg/.local/bin/keyboard_backlight.sh down"/>
-      <property name="&lt;Super&gt;w" type="string" value="exo-open --launch WebBrowser"/>
       <property name="&lt;Super&gt;d" type="string" value="dmenu_run -g 10 -l 10 -p &quot;Run: &quot;"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;percent" type="string" value="flameshot gui"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;dollar" type="string" value="pcmanfm"/>
@@ -67,6 +66,7 @@
       <property name="LaunchA" type="string" value="skippy-xd"/>
       <property name="&lt;Shift&gt;MonBrightnessUp" type="string" value="/home/hg/.local/bin/ext_disp_brightness.sh up"/>
       <property name="&lt;Shift&gt;MonBrightnessDown" type="string" value="/home/hg/.local/bin/ext_disp_brightness.sh down"/>
+      <property name="&lt;Super&gt;w" type="string" value="exo-open --launch WebBrowser"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

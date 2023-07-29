@@ -67,6 +67,14 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “bell705” active: bell705 (80%)"/>
+        <value type="string" value="wi-fi network connection “bell705” active: bell705 (100%)"/>
+        <value type="string" value="wi-fi network connection “bell705” active: bell705 (85%)"/>
+        <value type="string" value="wi-fi network connection “bell705” active: bell705 (95%)"/>
+        <value type="string" value="requesting a wi-fi network address for “bell705”…"/>
+        <value type="string" value="wi-fi network connection “bell705” active: bell705 (79%)"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="wi-fi network connection “the rise tm” active: the rise tm (84%)"/>
         <value type="string" value="blueman-tray"/>
         <value type="string" value="wi-fi network connection “the rise tm” active: the rise tm (94%)"/>
         <value type="string" value="blueman"/>
@@ -108,7 +116,7 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-12" type="string" value="clock">
-      <property name="timezone" type="string" value="EST"/>
+      <property name="timezone" type="string" value="Canada/Eastern"/>
       <property name="digital-format" type="string" value="%a %_d %b, %R"/>
       <property name="digital-time-format" type="string" value="%a %d %b, %I:%M %p"/>
       <property name="digital-layout" type="uint" value="3"/>
